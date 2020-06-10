@@ -1,0 +1,604 @@
+.div{
+	font-family: UTM Avo;
+}
+@font-face {
+	font-family: 'UTMAvo';
+	src: url('UTMAvo.eot') format('embedded-opentype'),  url('UTMAvo.woff') format('woff'), url('UTMAvo.ttf')  format('truetype'), url('UTMAvo.svg#UTMAvo') format('svg');
+	font-weight: normal;
+	font-style: normal;
+  }
+  
+body{
+	padding: 0;
+	margin: 0;
+	
+}
+
+   
+
+
+*{
+	font-size: 18px;
+}
+#menu-bar .navbar{
+	background-color: #101010;
+	opacity: 0.9;
+	
+}
+
+#menu-bar  .form-inline input{
+	border: none
+}
+#menu-bar .nav-link{
+	margin-left: 30px;
+	color: #e5722f;
+	padding: 0px;
+	font-weight: 500;
+	font-size: 16px;
+}
+#menu-bar .navbar-nav{
+	position: relative;
+	margin-right: 20px
+}
+#menu-bar .navbar-nav .nav-link{
+	padding: 20px 10px;
+	/* transition: all 0.5s; */
+ 
+}
+#menu-bar .form-inline input{
+	border-radius: 20px;
+}
+#menu-bar .form-inline button{
+	border-radius: 20px;
+}
+#menu-bar .search-line{
+	background: #e5722f;
+	border: none;
+
+}
+
+	
+
+#menu-bar .navbar-nav .nav-link:hover{
+	/* background-color:  #e5722f; */
+	color: white;
+	
+	padding: 20px 10px;
+	
+}
+#menu-bar .btn-butom{ 
+	color: #e5722f;
+	background-color: white;
+	text-decoration: none;
+	border-radius: 20px;
+	border: 2px solid #e5722f;
+	height: 35px;
+	padding-bottom: 15px;
+	line-height: 17px;
+		
+}
+#menu-bar .btn-butom:hover{
+	color: white;
+	background-color: #e5722f;
+	text-decoration: none;
+	border-radius: 20px;
+	border: 2px solid white;
+	transition: 0.5s;
+
+	
+}
+
+
+
+
+.search-box {
+	top: 50%;
+	left: 50%;
+	background:none;
+	border-radius: 20px;
+	margin-top: 6px;
+	margin-right: 10px;
+	margin-left: 0%;
+   }
+   
+  /*  .search-box:hover > .search-txt {
+	width: 200px;
+	padding: 0px 6px;
+	background-color: white;
+	color:#e5722f
+	
+	
+   } */
+   
+   .search-box:hover > .search-btn {
+	background: #e5722f;
+	color: white;
+   }
+   
+   .search-btn {
+	color: #e84118;
+	float: right;
+	width: 25px;
+	border-radius: 50%;
+	background: #e5722f;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.4s;
+	height: 33px;
+	
+	
+	
+   }
+   
+   .search-btn > i {
+	font-size: 20px;
+	color: white;
+	margin-bottom: 0px;
+	
+	
+   }
+   
+   .search-txt {
+	border: none;
+	background: white;
+	outline: none;
+	float: left;
+	padding-left: 10px;
+	color: black;
+	font-size: 16px;
+	transition: 0.4s;
+	line-height: 40px;
+	width: 200px;
+	height: 35px;
+	margin-right: -35px;
+	
+   }
+
+ 
+ @media (max-width: 1024px) {
+  .form-inline input {
+    margin: 10px 0;
+  }
+
+  .form-inline {
+    flex-direction: row;
+    align-items: baseline
+  }
+  .search-line{
+  	margin-top: 10px;
+  }
+  .form-inline .btn-book{
+	position: absolute;
+    left: 35%;
+    bottom: 5%;
+	  
+  }
+}
+    	
+   
+
+/* phan css cua story */
+#story{
+	margin-top: 150px;
+}
+#story .col-md-5 img{
+	width: 700px;
+	margin-left: -180px;
+}
+
+
+#story .col-md-7 img{
+	width: 70%;
+	margin-top: -150px;
+	margin-left: 200px;
+}
+#story .col-md-7 p{
+	width: 550px;
+}
+
+
+#story .img-hidden img{
+	width: 70%;
+	transition: all 0.3s;
+	transform: scale(1)
+}
+#story .img-hidden:hover img{
+	transform: scale(1.05)
+}
+#story .img-toobo{
+	position: relative;
+	background-image: url('../img/story1.jpg');
+	height: 640px;
+	background-size: 410px 640px;
+	background-repeat: no-repeat
+	
+}
+@media (max-width: 768px) {
+  #story .img-toobo  {
+  	background-size: 205px 320px
+    
+  }
+}
+#story .img-toobo img{
+	position: absolute;
+	
+}
+#story .orange-left {
+	display: inline-block
+}
+#story .orange-left a{ 
+	color: white;
+	background-color:#e5722f;
+	padding: 8px 20px;
+	border-radius: 20px;
+	border: 2px solid white;
+	display: inline-block;	
+	transition: 0.5s;
+}
+#story .orange-left a:hover{
+	color: #e5722f;
+	background-color: white;
+	text-decoration: none;
+	border-radius: 20px;
+	border: 2px solid #e5722f;
+	padding: 8px 20px;
+
+	
+}
+#story .white-right { 
+	display: inline-block
+}
+#story .white-right a{ 
+	color: #e5722f;
+	background-color:white;
+	padding: 8px 20px;
+	border-radius: 20px;
+	border: 2px solid #e5722f;
+	display: inline-block;	
+	transition: 0.5s;
+}
+
+#story .white-right a:hover{
+	color: white;
+	background-color:#e5722f;
+	text-decoration: none;
+	border-radius: 20px;
+	border: 2px solid white;
+	padding: 8px 20px
+	
+}
+
+@media screen and (max-width:1024px){
+	#story .trangtri1 img{
+		width: 100%;
+		display: none;
+	}
+}
+
+
+/* css mondacbiet */
+#mondacbiet{
+    margin-top: 150px;
+}
+.carousel-item {
+
+	margin-right: 0px !important;
+	
+	}
+
+
+
+
+@media (min-width: 768px) {
+
+    /* show 3 items */
+    .carousel-inner .active,
+    .carousel-inner .active + .carousel-item,
+    .carousel-inner .active + .carousel-item + .carousel-item,
+    .carousel-inner .active + .carousel-item + .carousel-item + .carousel-item  {
+        display: block;
+    }
+
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item,
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item,
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item + .carousel-item {
+        transition: none;
+    }
+
+    .carousel-inner .carousel-item-next,
+    .carousel-inner .carousel-item-prev {
+      position: relative;
+      transform: translate3d(0, 0, 0);
+    }
+
+    .carousel-inner .active.carousel-item + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+        position: absolute;
+        top: 0;
+        right: -25%;
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+
+    /* left or forward direction */
+    .active.carousel-item-left + .carousel-item-next.carousel-item-left,
+    .carousel-item-next.carousel-item-left + .carousel-item,
+    .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item,
+    .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item,
+    .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible;
+    }
+
+    /* farthest right hidden item must be abso position for animations */
+    .carousel-inner .carousel-item-prev.carousel-item-right {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+
+    /* right or prev direction */
+    .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
+    .carousel-item-prev.carousel-item-right + .carousel-item,
+    .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item,
+    .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item,
+    .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(100%, 0, 0);
+        visibility: visible;
+        display: block;
+        visibility: visible;
+    }
+}
+/* css bannerbig */
+#bannerbig{
+	margin-top: 150px;
+}
+
+
+
+/* phần css chủa không gian */
+
+#khonggian{
+	background-image: url('../img/mondacbiet.jpg');
+	background-size: 100%;
+	margin-top: 100px;
+	height: 700px;
+}
+#khonggian .trangtri3 img{
+	margin-left: -100px;
+    margin-top: -130px;
+	height:100%;
+
+}
+
+#khonggian .img-hidden{
+	margin-top: 100px;
+	overflow: hidden;
+}
+#khonggian .img-hidden img {
+	transition: all 0.3s;
+	transform: scale(1)	
+}
+#khonggian .img-hidden:hover img{
+	transform: scale(1.2);
+		
+}
+#khonggian .row.text{
+	margin-top: -30px;
+}
+#khonggian p{
+	height: 100px;
+	
+	margin-top: 10px;
+	font-size: 18px;
+	line-height: 1.1
+}
+#khonggian h4{
+	color: #e5722f;
+	line-height: 1.5;
+	font-size: 20px;
+	margin-top: 10px;
+}
+#khonggian h5{
+	color: #e5722f;
+	margin: auto;
+	margin-top: -25px;
+}
+#khonggian .button-o{
+	display: inline-block;
+	border: 2px solid white;
+	border-radius: 20px;
+	padding: 5px 20px;
+  	background-color:  #e5722f;
+  	color: white
+
+}
+#khonggian .button-o:hover{
+  background-color: white;
+  border: 2px solid #e5722f;
+  border-radius: 20px;
+  padding: 5px 20px;
+  color: #e5722f
+}
+#khonggian button a{
+  color: white;
+  font-size: 12px;
+  text-decoration: none;
+}
+#khonggian .text-room .col-md-4{
+	width: 33.33333333%;
+}
+
+@media screen and (max-width:1024px){
+	#khonggian .text-room p{
+		font-size: 12px;;
+	}
+}
+
+
+
+
+
+/* phần css của phản hồi */
+
+#phanhoi{
+	margin-top: 150px;
+	
+}
+#phanhoi .carousel-inner{
+	height: 500px;
+}
+
+#phanhoi img{
+	width: 100%;
+}
+#phanhoi .col-md-6 {
+	margin-top: 50px;
+}
+#phanhoi .img-hidden img{
+	transform: scale(1);
+	transition: all 0.3s;
+}
+#phanhoi .img-hidden:hover img{
+	
+	transform: scale(1.05);
+}
+#phanhoi .carousel-control.left {
+	background: unset;
+}
+#phanhoi .carousel-control.right {
+	background: unset;
+}
+#phanhoi .carousel-control .glyphicon-chevron-left{
+	margin-top: 180px;
+	margin-left: 950px;
+	color: #e5722f
+}
+#phanhoi .carousel-control .glyphicon-chevron-right{
+	margin-top: 180px;
+	margin-right: -40px;
+	color: #e5722f
+}
+#phanhoi .img-tobom {
+	background-image: url('../img/phanhoi1.jpg');
+	position: relative;
+	height: 390px;
+}	
+#phanhoi .img-tobom img{
+	position: absolute;
+}
+#phanhoi .text-feedback{
+	padding-left: 50px;
+}
+
+/* css gioi thieu */
+#gioithieu{
+	margin-top: 100px;
+}
+ #gioithieu .text-trai p{
+	 padding-left: 30px;
+	 padding-top: 50px;
+ }
+
+
+/* css people */
+#people{
+	margin-top: 100px;
+}
+ #people h4{
+	 color: #e5722f;
+	 font-weight: 600
+ }
+#people p{
+	text-align: center;
+	margin-top: 15px;
+}
+
+#people  img{
+	margin: auto;
+	display: block;
+}
+#people img{
+	transform: scale(1);
+	transition: all 0.5s
+}
+ #people img:hover{
+	 transform: scale(1.1)
+ }
+
+
+/* css future */
+#future{
+	margin-top: 100px;
+}
+/* css monchin */
+#monchinh .img-net{
+	background-color:#efefef;
+	border: 1px solid white!important;
+    
+}
+#monchinh .img-net img{
+	height: auto;
+	
+}
+/* css buffet */
+#buffetlau ul li{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+
+/* phần css của footer */
+#footer ul li{
+	color: white;
+	list-style-type: none;
+}
+#footer{
+	background-image: url('../img/footer.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 100%;
+	margin-top:100px;
+	margin-bottom: 0;
+	line-height: 1;
+}
+#footer h4,p{
+	text-align: left;
+}
+#footer h4,h5,a{
+	color: #e5722f;
+	font-size: 14px;
+
+}
+#footer .list-unstyled li h5{
+	color: #e5722f;
+}
+#footer p{
+	color: white;
+	font-size: 14px;
+}
+#footer .col-md-3 {
+	margin-top: 110px;
+	margin-left: -75px;
+}
+#footer .col-md-3 li a{
+	color: white;
+	text-align: left;
+
+}
+#footer ul li{
+	padding-bottom: 20px;
+}
+#footer .footer-copyright {
+	font-size: 10px;
+}
+#footer .footer-copyright a{
+	font-size: 10px;
+}

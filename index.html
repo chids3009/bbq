@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Title Page</title>
+
+	<!-- Liên kết css của bootstrap -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- Liên kết library icon fontawesome -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- Css của mình -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    
+</head>    
+<body>
+
+	<section id="menu-bar">
+
+		<nav class="navbar navbar-expand-lg fixed-top">
+			<a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<i class="fa fa-bars text-white"></i>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="index.html">Trang chủ <span class="sr-only"></span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="gioithieu.html">Giới thiệu</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="thucdon.html">
+							Thực đơn
+						</a>
+						
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="">Tin tức</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="contact.html">Liên hệ</a>
+					</li>
+					<li class="nav-item">
+						<form class="form-inline my-2 my-lg-0" style="margin-top: 7px!important;">
+							<div class="search-box">	
+								<input type="text" name="" class="search-txt" placeholder="Search..."/>
+								<button class="search-line"><a class="search-btn">
+									<i class="fa fa-search"></i>
+								</a></button>	
+							</div>
+							
+						</form>	
+					</li>
+					<li class="nav-item">
+						<div class="book-food" style="margin-top: 12px!important;">
+						<button class="btn btn-butom btn-book  my-2 my-sm-0 " type="submit">Đặt bàn</button>
+					</div>	
+				</li>
+				</ul>
+		
+			
+			</div>
+		</nav>
+	</section>
+
+	<section id="banner">
+		<img src="img/banner1.jpg" alt="" class="img-fluid">
+	</section>
+	
+	
+	<section id="story">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-md-6 img-hidden img-toobo ">
+					<img src="img/story2.jpg" alt="" style="margin-left: 25px;margin-top: -35px;">
+				</div>
+
+
+				<div class="col-md-6 ">
+					<div class="strong-orange">
+						<h2>CÂU CHUYỆN BBQ HOUSE</h2>
+						<img src="img/strong.png" alt="" style="margin-top:-115px;
+						margin-left: 330px;
+						width: 10%">
+					</div>
+					<p>Gói trọn tinh hoa 5 vị lẩu quốc tế từ Thái – Trung – Nhật – Hàn, thực khách thỏa sức đắm chìm trong hương vị lẩu ngăn đôi đậm đà, ngất ngây cùng đồ ăn kèm đặc sắc và quầy line không giới hạn. Bạn có thể thưởng thức một bữa ăn TRỌN VẸN từ khai vị – món chính (lẩu) – món ăn kèm – món tráng miệng. Tất cả đều có tại một nhà hàng – BBQ HOUSE!!!
+						<br>
+						<br>
+					Đặc biệt, nhà hàng luôn chú trọng nguồn nguyên liệu XANH – SẠCH, chất lượng thịt bò Mỹ hảo hạng, rau củ tươi nhập từ các trang trại Đà Lạt đảm bảo mọi bữa ăn ngon cho thực khách. Hotpot Story mong muốn mang đến trải nghiệm tuyệt vời. </p>
+
+					<div class="orange-left"> <a>XEM THÊM</a></div>
+
+
+					<div class="white-right"><a>TÌM CỬA HÀNG</a></div>
+                    <div class="trangtri1">
+                        <img src="img/trangtri1.png" alt="" class="img-fluid">
+                    </div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<section id="mondacbiet">
+			<div class="container">
+				<div style="margin-top: 40px;">
+				<h2 class="text-center text-uppercase">món đặc biệt</h2>
+				<img src="img/strong.png" alt="" style="margin-top:-115px;
+				margin-left: 620px;">
+			</div>
+                    
+
+                <div id="carouselmondacbiet" class="carousel slide" data-ride="carousel" data-interval="3000" style="margin-top: 50px;">
+                    <div class="carousel-inner row w-100 mx-auto" role="listbox" id="img-saveurs">
+                        <div class="carousel-item col-md-3  active">
+                           <div class="panel panel-default">
+                              <div class="panel-thumbnail">
+                                <a href="#modal-saveurs" class="thumb">
+                                  <img class="img-fluid mx-auto d-block" src="img/food1.png">
+                                  <p class="text-center" style="margin-top: 20px;">Bò Cuộn Nấm Kim Chi Nướng</p>
+                                </a>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item col-md-3 ">
+                           <div class="panel panel-default">
+                              <div class="panel-thumbnail">
+                                <a href="#modal-saveurs"  class="thumb">
+                                 <img class="img-fluid mx-auto d-block" src="img/food2.png" >
+                                 <p class="text-center" style="margin-top: 20px;">Mực Ống Nướng Muối Ớt </p>
+                                </a>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item col-md-3 ">
+                           <div class="panel panel-default">
+                              <div class="panel-thumbnail">
+                                <a href="#modal-saveurs" class="thumb">
+                                 <img class="img-fluid mx-auto d-block" src="img/food3.png" >
+                                 <p class="text-center" style="margin-top: 20px;">Bạch Tuộc Nướng</p>
+                                </a>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item col-md-3 ">
+                            <div class="panel panel-default">
+                              <div class="panel-thumbnail">
+                                <a href="#modal-saveurs" title="image 5" class="thumb">
+                                 <img class="img-fluid mx-auto d-block" src="img/food4.png" >
+                                 <p class="text-center" style="margin-top: 20px;">Ba Chỉ Bò Úc Nướng</p>
+                                </a>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item col-md-3 ">
+                          <div class="panel panel-default">
+                              <div class="panel-thumbnail">
+                                <a href="#modal-saveurs" class="thumb">
+                                  <img class="img-fluid mx-auto d-block" src="img/food1.png" >
+                                  <p class="text-center" style="margin-top: 20px;">Bạch Tuộc Nướng</p>
+                                </a>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item col-md-3 ">
+                           <div class="panel panel-default">
+                              <div class="panel-thumbnail">
+                                <a href="#modal-saveurs"  class="thumb">
+                                  <img class="img-fluid mx-auto d-block" src="img/food2.png"  >
+                                  <p class="text-center" style="margin-top: 20px;">Bò Cuộn Nấm Kim Chi Nướng</p>
+                                </a>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item col-md-3 ">
+                            <div class="panel panel-default">
+                               <div class="panel-thumbnail">
+                                 <a href="#modal-saveurs"  class="thumb">
+                                   <img class="img-fluid mx-auto d-block" src="img/food3.png"  >
+                                   <p class="text-center" style="margin-top: 20px;" >Ba Chỉ Bò Úc Nướng</p>
+                                 </a>
+                               </div>
+                             </div>
+                         </div>
+                         <div class="carousel-item col-md-3 ">
+                            <div class="panel panel-default">
+                               <div class="panel-thumbnail">
+                                 <a href="#modal-saveurs"  class="thumb">
+                                   <img class="img-fluid mx-auto d-block" src="img/food4.png"  >
+                                   <p class="text-center" style="margin-top: 20px;">Bò Cuộn Nấm Kim Chi Nướng</p>
+                                 </a>
+                               </div>
+                             </div>
+                         </div>
+                         <div class="carousel-item col-md-3 ">
+                            <div class="panel panel-default">
+                               <div class="panel-thumbnail">
+                                 <a href="#modal-saveurs"  class="thumb">
+                                   <img class="img-fluid mx-auto d-block" src="img/food4.png"  >
+                                   <p class="text-center" style="margin-top: 20px;">Bò Cuộn Nấm Kim Chi Nướng</p>
+                                 </a>
+                               </div>
+                             </div>
+                         </div>
+                         <div class="carousel-item col-md-3 ">
+                            <div class="panel panel-default">
+                               <div class="panel-thumbnail">
+                                 <a href="#modal-saveurs"  class="thumb">
+                                   <img class="img-fluid mx-auto d-block" src="img/food4.png"  >
+                                   <p class="text-center" style="margin-top: 20px;">Bò Cuộn Nấm Kim Chi Nướng</p>
+                                 </a>
+                               </div>
+                             </div>
+                         </div>
+                         <div class="carousel-item col-md-3 ">
+                            <div class="panel panel-default">
+                               <div class="panel-thumbnail">
+                                 <a href="#modal-saveurs"  class="thumb">
+                                   <img class="img-fluid mx-auto d-block" src="img/food4.png"  >
+                                   <p class="text-center" style="margin-top: 20px;">Bò Cuộn Nấm Kim Chi Nướng</p>
+                                 </a>
+                               </div>
+                             </div>
+                         </div>
+                         
+                </div>
+                </div>
+			
+		</section>
+
+	<section id="bannerbig">
+		<img src="img/bannerto.png" alt="" style="width: 100%;"> 
+	</section>
+
+
+	<section id="khonggian">
+		<div class="container">
+			<div class="text-line">
+				<h2 class="text-center">KHÔNG GIAN</h2>
+				<img src="img/strong.png" alt="" style="margin-top:-115px;
+				margin-left: 630px;">
+				<h5 class="text-center"><i>BBQ HOUSE không chỉ là nơi ăn uống....</i></h5>
+			</div>
+
+
+			<div class="row" class="text-room">
+				<div class="col-md-4 col-sx-12 col-sm-3 text-center">
+					<div class="img-hidden">
+						<img src="img/room1.png" alt="" class="img-fluid">
+					</div>
+					<h4><b>BBQ HOUSE LÊ TRỌNG TẤN</b></h4>
+					<p class="text-center" style="white-space: pre-line!important">Không chỉ là một bữa ăn, BBQ HOUSE mang đến những khoảnh khắc vui vẻ, hạnh phúc cho mọi người</p>
+					<div class="button-o"><a>XEM THÊM</a></div>
+				</div>
+				<div class="col-md-4 col-sx-12 col-sm-3 text-center">
+					<div class="img-hidden">
+						<img src="img/room2.png" alt="" class="img-fluid">
+					</div>
+					<h4><b>BBQ HOUSE HOÀNG HOA THÁM</b></h4>
+					<p class="text-center"  style="white-space: pre-line!important">Vì thế, không gia nhà hàng hiện đại, vô cùng thoải mái cùng với sự phục vụ tận tình, BBQ HOUSE đã chinh phục mọi thực khách.</p>
+					<div class="button-o"><a>XEM THÊM</a></div>
+				</div>
+				<div class="col-md-4 col-sx-12 col-sm-3 text-center">
+					<div class="img-hidden">
+						<img src="img/room3.png" alt="" class="img-fluid">
+					</div>
+					<h4><b>Tầng 4 TTTM GIGA MAIL</b></h4>
+					<p class="text-center"  style="white-space: pre-line!important">Hệ thống BBQ HOUSE có gần 50 nhà hàng trên toàn quốc, mọi nơi đều toàn vẹn như một đã đem câu chuyện lẩu và hương vị .</p>
+					<div class="button-o"><a>XEM THÊM</a></div>
+				</div>
+			</div>
+			
+			<div class="trangtri3" style="margin-left: -350px;">
+				<img src="img/trangtri3.png" alt="" >
+			</div>
+	</div>
+
+</section>
+
+
+
+<section id="phanhoi">
+	<div class="container">
+
+		<div class="text line" >
+			<h2 class="text-center">PHẢN HỒI KHÁCH HÀNG</h2>
+			<img src="img/strong.png" alt="" style="margin-top:-115px;
+			margin-left: 705px;width: 6%">
+        </div>
+        <div id="carouselgirl" class="carousel slide carousel-fade" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row ">
+							<div class="col-md-6 col-sx-12 img-tobom img-hidden">
+								
+								<img src="img/phanhoi2.jpg" class="img-top" alt="" style="margin-left: 25px;margin-top: 25px;">
+							</div>
+							<div class="col-md-6 col-sx-12">
+								<div class="text-feedback">
+									<h3>NGUYỄN THẢO QUỲNH</h3>
+									<h6>Đánh giá*****</h6>
+									<p>Không gian quán rộng rãi và hiện đại. Đồ ăn phong phú đa dạng, tươi và rất ngon. Nhân viên cũng rất nhiệt tình và dễ thương. Giá cả lại rất hợp lý. Sẽ ủng hộ BBQ House dài dài!!!
+									Thực đơn nhiều món · Không gian thời thượng · Món ăn tuyệt vời.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+              </div>
+              <div class="carousel-item">
+                <div class="row ">
+							<div class="col-md-6 col-sx-12 img-tobom img-hidden">
+								
+								<img src="img/phanhoi2.jpg" class="img-top" alt="" style="margin-left: 25px;margin-top: 25px;">
+							</div>
+							<div class="col-md-6 col-sx-12">
+								<div class="text-feedback">
+									<h3>NGUYỄN THẢO QUỲNH</h3>
+									<h6>Đánh giá*****</h6>
+									<p>Không gian quán rộng rãi và hiện đại. Đồ ăn phong phú đa dạng, tươi và rất ngon. Nhân viên cũng rất nhiệt tình và dễ thương. Giá cả lại rất hợp lý. Sẽ ủng hộ BBQ House dài dài!!!
+									Thực đơn nhiều món · Không gian thời thượng · Món ăn tuyệt vời.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+              </div>
+              <div class="carousel-item">
+                <div class="row ">
+							<div class="col-md-6 col-sx-12 img-tobom img-hidden">
+								
+								<img src="img/phanhoi2.jpg" class="img-top" alt="" style="margin-left: 25px;margin-top: 25px;">
+							</div>
+							<div class="col-md-6 col-sx-12">
+								<div class="text-feedback">
+									<h3>NGUYỄN THẢO QUỲNH</h3>
+									<h6>Đánh giá*****</h6>
+									<p>Không gian quán rộng rãi và hiện đại. Đồ ăn phong phú đa dạng, tươi và rất ngon. Nhân viên cũng rất nhiệt tình và dễ thương. Giá cả lại rất hợp lý. Sẽ ủng hộ BBQ House dài dài!!!
+									Thực đơn nhiều món · Không gian thời thượng · Món ăn tuyệt vời.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+              </div>
+            </div>
+           
+          </div>
+		
+
+</div>
+</section>
+
+
+<section id="footer">
+	<div class="container">
+		<!-- Footer -->
+		<footer class="page-footer font-small blue pt-4">
+
+			<!-- Footer Links -->
+			<div class="container text-center text-md-left">
+
+				<!-- Grid row -->
+				<div class="row">
+
+					<!-- Grid column -->
+					<div class="col-md-6 mt-md-0 mt-3">
+
+						<!-- Content -->
+						<h5 class="text-left"><img src="img/logo2-01.png" alt=""></h5>
+						<h4>BBQ HOUSE LÊ TRỌNG TẤN</h4>
+						<p>Địa chỉ: 433 Lê Trọng Tấn, P.Sơn Kỳ, Q.Tân Phú</p>
+						<p>Sđt:028 3812 0767</p>
+						<h4>BBQ HOUSE HOÀNG HOA THÁM</h4>
+						<p>Số 4 Hoàng Hoa Thám, P.12 , Q.Tân Bình</p>
+						<p>Sđt:028 3842 6779</p>
+						<h4>Tầng 4 TTTM GIGA MAIL</h4>
+						<p>240-242 Phạm Văn Đồng, Q.Thủ Đức</p>
+						<p>Sđt:028 3636 5686</p>
+
+
+
+					</div>
+					<!-- Grid column -->
+
+
+
+					<!-- Grid column -->
+					<div class="col-md-3 mb-md-0 mb-3">
+
+
+						<ul class="list-unstyled">
+							<li class="text-left">
+								<h5><a href="#!">TRANG CHỦ</a></h5>
+							</li>
+							<li class="text-left">
+								<a href="#!">Giới thiệu</a>
+							</li>
+							<li class="text-left">
+								<a href="#!">Thực đơn</a>
+							</li>
+							<li class="text-left">
+								<a href="#!">Khuyến mại</a>
+							</li>
+							<li class="text-left">
+								<a href="#!">Tin tức</a>
+							</li>
+							<li class="text-left">
+								<a href="#!">Liên hệ</a>
+							</li>
+						</ul>
+
+					</div>
+					<!-- Grid column -->
+
+					<!-- Grid column -->
+					<div class="col-md-3 mb-md-0 mb-3">
+
+						
+
+						<ul class="list-unstyled">
+							<li class="text-left">
+								<h5><a href="#!">GIỜ MỞ CỬA</a></h5>
+							</li>
+							<li class="text-left">
+								<a href="#!">Thứ 2-Thứ 6</a>
+							</li>
+							<li class="text-left">
+								<a href="#!">11:00-22:00</a>
+							</li>
+							<li class="text-left">
+								<a href="#!">Thứ 7-Chủ nhật</a>
+							</li>
+							<li class="text-left">
+								<a href="#!">10:30-22:30</a>
+							</li>
+						</ul>
+
+					</div>
+					<!-- Grid column -->
+
+				</div>
+				<!-- Grid row -->
+
+			</div>
+			<!-- Footer Links -->
+
+			<!-- Copyright -->
+			<div class="footer-copyright text-center py-3">© 2020 Copyright:
+				<a href="bbqhouse.com"> BBQ HOUSE</a>
+			</div>
+			<!-- Copyright -->
+
+		</footer>
+		<!-- Footer -->
+
+	</section>
+
+	<!-- Liên kết js tổng -->
+	<script src="js/jquery.min.js"></script>
+	<!-- Liên kết js của bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/popper.min.js"></script>
+
+
+
+    
+</body>
+
+</html>
+
+	
